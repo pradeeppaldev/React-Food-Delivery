@@ -7,3 +7,6 @@
 
 # Editor settings (optional)
 .vscode/
+
+swiggyAPI.js
+TestData.html
