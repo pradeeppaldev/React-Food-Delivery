@@ -7,7 +7,7 @@ export default function DineOption(){
             <p>Discover best restaurants on Dineout</p>
             <div className="flex flex-nowrap overflow-x-auto mt-5 gap-4 mb-2">
                 {
-                    dineoutRestaurants.map((RestData) => <DineCard key={RestData?.info?.id} RestData={RestData}></DineCard>)
+                    dineoutRestaurants?.map((RestData) => <DineCard key={RestData?.info?.id} RestData={RestData}></DineCard>)
                 }
             </div>
         </div>
